@@ -20,10 +20,10 @@
 @syntax-result-marker-color-selected: @syntax-accent-hue;
 
 // Gutter colors
-@syntax-gutter-text-color:                #8e8894;
+@syntax-gutter-text-color:                darken(#8e8894, 5%);
 @syntax-gutter-text-color-selected:       #d5d1d0;
-@syntax-gutter-background-color:          lighten(@syntax-background-color, 5%);
-@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 10%);
+@syntax-gutter-background-color:          @syntax-background-color;
+@syntax-gutter-background-color-selected: @syntax-background-color;
 
 // Git colors - For git diff info. i.e. in the gutter
 @syntax-color-renamed:  hsl(208, 100%, 60%);
@@ -44,13 +44,3 @@
 @syntax-color-attribute:  @hue-6;
 @syntax-color-import:     @hue-3;
 @syntax-color-snippet:    @hue-4;
-
-
-// Custom Syntax Variables -----------------------------------
-// Don't use in packages
-;
-
-@syntax-deprecated-fg: darken(@syntax-color-modified, 50%);
-@syntax-deprecated-bg: @syntax-color-modified;
-@syntax-illegal-fg:    white;
-@syntax-illegal-bg:    @syntax-color-removed;
