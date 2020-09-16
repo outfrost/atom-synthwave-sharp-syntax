@@ -1,6 +1,6 @@
 {
   "name": "synthwave-sharp-syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A sharper synthwave syntax theme. Fork of synthwave-neo-syntax.",
   "theme": "syntax",
   "dependencies": {},
@@ -20,5 +20,14 @@
   "license": "MIT",
   "readme": "# Synthwave Sharp\n\nA syntax theme for Atom.\n\nForked from [gilbertohasnofb](https://atom.io/users/gilbertohasnofb)'s [Synthwave Neo](https://atom.io/themes/synthwave-neo-syntax), sharpened and tweaked.\n\nI've added a darkened background for [minimap](https://atom.io/packages/minimap) as well, for easier reading of shorter files.\n\n![Screenshot of Synthwave Sharp theme in action](screenshot.png)",
   "readmeFilename": "README.md",
-  "keywords": ["theme", "syntax", "synthwave", "outrun", "vaporwave", "neon", "glow", "dark"]
+  "keywords": [
+    "theme",
+    "syntax",
+    "synthwave",
+    "outrun",
+    "vaporwave",
+    "neon",
+    "glow",
+    "dark"
+  ]
 }
