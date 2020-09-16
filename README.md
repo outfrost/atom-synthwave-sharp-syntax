@@ -1,7 +1,15 @@
-## Synthwave Neo
+# Synthwave Sharp
 
-A theme for Atom.
+A syntax theme for Atom.
 
-Inspired by Robb Owen's [SynthWave '84 Theme](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) for VS Code. The code is based on the [Firewatch Syntax Theme](https://atom.io/themes/firewatch-syntax).
+Forked from [gilbertohasnofb](https://atom.io/users/gilbertohasnofb)'s [Synthwave Neo](https://atom.io/themes/synthwave-neo-syntax), sharpened and tweaked.
 
-![synthwave-neo-screenshot](https://raw.githubusercontent.com/gilbertohasnofb/synthwave-neo-syntax/master/synthwave-neo-syntax-screenshot.png)
+I've added a darkened background for [minimap](https://atom.io/packages/minimap) as well, for easier reading of shorter files.
+
+![Screenshot of Synthwave Sharp theme in action](screenshot.png)
+
+### License & contributing
+
+This theme is released under the MIT license. If upstream authors would like to amend the original "Copyright (c) 2016 GitHub Inc." attribution, let me know via issue or PR.
+
+Issues & PRs welcome!
